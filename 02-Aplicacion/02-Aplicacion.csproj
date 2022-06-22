@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>_02_Aplicacion</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\03-Dominio\03-Dominio.csproj" />
+    <ProjectReference Include="..\04-Infraestructura\04-Infraestructura.csproj" />
+  </ItemGroup>
+
+</Project>
